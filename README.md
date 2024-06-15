@@ -2,6 +2,7 @@
 laravel-berita menggunakan framework laravael v10 dengan integrasi template AdminLTE 3 dan Bootstrap 5. 
 
 <h2>Dokumentasi Website</h2>
+
 ![Screenshot (246)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/1a6aeb5d-0a10-4145-b654-efe7fc6b0ed7) 
 
 ![Screenshot (256)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/2b10e2fa-4a30-4092-9788-d47e80742781) 
