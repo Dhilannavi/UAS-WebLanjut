@@ -28,10 +28,10 @@ laravel-berita menggunakan framework laravael v10 dengan integrasi template Admi
 <h2>Fitur</h2>
 <ul>
     <li>Laravel Breeze (Blade)</li>
-    <li>Spatie Permission v6 dengan multi role</li>
-    <li>Wilayah Indonesia dari Laravolt meliputi: Province, City, District, Village</li>
-    <li>Dashboard Admin: CRUD Post, Category, Tag, User, Navigation, Permission, Role</li>
-    <li>Dashboard Author: CRUD Post, Edit Profile</li>
+    <li>Spatie Permission v6 dengan dukungan multi role</li>
+    <li>Data wilayah Indonesia dari Laravolt mencakup: Provinsi, Kota, Kecamatan, Desa</li>
+    <li>Dashboard Admin: CRUD untuk Post, Kategori, Tag, Pengguna, Navigasi, Permission, Role</li>
+    <li>Dashboard Penulis: CRUD untuk Post, Edit Profil</li>
 </ul>
 
 <h3>Layout</h3>
@@ -46,7 +46,9 @@ Frontend: Bootstrap 5, Backend: AdminLTE 3
     <li>Fontawesome 6</li>
 </ul>
 
-<p>Atau Anda dapat melihat semua paket yang saya gunakan dalam repo ini dari plugin di folder public &gt; assets folder and composer.json file. Namun plugin dan paketnya belum semuanya terpakai, jadi Anda bisa melihat yang sebenarnya dari layouts &gt; app.blade.php and script.blade.php.</p>
+<p>Untuk melihat semua paket yang digunakan dalam repository ini, Anda dapat memeriksa plugin di folder <code>public > assets</code> dan file <code>composer.json</code>. Namun, tidak semua plugin dan paket sudah diterapkan, jadi Anda bisa melihat yang sebenarnya digunakan di <code>layouts > app.blade.php</code> dan <code>script.blade.php</code>.</p>
+
+
 
 <h2>Cara Instalasi</h2>
 <ul>
