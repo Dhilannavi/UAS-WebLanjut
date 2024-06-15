@@ -1,5 +1,13 @@
-<h1>laravel-berita</h1>
-laravel-berita menggunakan framework laravael v10 dengan integrasi template AdminLTE 3 dan Bootstrap 5. 
+<h1>Pertal Berita Laravel</h1>
+<p>Website ini dibangun menggunakan Laravel versi 10 dengan integrasi template AdminLTE 3 untuk dashboard admin dan Bootstrap 5 untuk antarmuka pengguna.</p>
+
+<p><strong>Laravel 10:</strong> Framework PHP yang andal dan modern untuk membangun aplikasi web.</p>
+
+<p><strong>AdminLTE 3:</strong> Template dashboard admin responsif yang menyediakan berbagai komponen UI siap pakai.</p>
+
+<p><strong>Bootstrap 5:</strong> Framework CSS yang populer untuk pengembangan frontend yang cepat dan responsif.</p>
+
+<p>Dengan kombinasi ini, Portal Berita Laravel menawarkan antarmuka pengguna yang intuitif dan mudah digunakan baik untuk admin maupun pengunjung.</p>
 
 <h2>Dokumentasi Website</h2>
 
