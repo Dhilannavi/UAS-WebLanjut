@@ -51,28 +51,30 @@ Frontend: Bootstrap 5, Backend: AdminLTE 3
 
 
 <h2>Cara Instalasi</h2>
-<ul>
-    <li>Pastikan Anda terhubung ke internet dan menginstal PHP 8.1.</li>
-    <li>Buka terminal / cmd / powershell Anda untuk proyek ini dan jalankan perintah ini:
-        <ul>
-            <li>composer install / composer update</li>
-            <li>cp .env.example .env</li>
-            <li>php artisan migrate</li>
-            <li>php artisan db:seed</li>
-        </ul>
+<ol>
+    <li>Pastikan Anda terhubung ke internet dan memiliki PHP 8.1 terinstal pada sistem Anda.</li>
+    <li>Buka terminal atau command prompt (cmd) di direktori proyek ini, lalu jalankan perintah berikut:
+        <ol>
+            <li>Instal atau perbarui dependensi dengan Composer:
+                <pre><code>composer install</code></pre>
+                atau jika sudah pernah diinstal sebelumnya:
+                <pre><code>composer update</code></pre>
+            </li>
+            <li>Salin file konfigurasi contoh dan sesuaikan:
+                <pre><code>cp .env.example .env</code></pre>
+            </li>
+            <li>Jalankan migrasi database untuk membuat tabel yang diperlukan:
+                <pre><code>php artisan migrate</code></pre>
+            </li>
+            <li>Seed database dengan data awal:
+                <pre><code>php artisan db:seed</code></pre>
+            </li>
+        </ol>
     </li>
-    <li>Siapkan Kredensial Email SMTP (opsional)
-        <ul>
-            <li>MAIL_MAILER=</li>
-            <li>MAIL_HOST=</li>
-            <li>MAIL_PORT=</li>
-            <li>MAIL_USERNAME=</li>
-            <li>MAIL_PASSWORD=</li>
-            <li>MAIL_ENCRYPTION=</li>
-            <li>MAIL_FROM_ADDRESS=""</li>
-        </ul>
-    </li>
-</ul>
+</ol>
+
+<p>Dengan langkah-langkah di atas, proyek Anda seharusnya siap untuk dijalankan. Pastikan untuk memeriksa konfigurasi lainnya sesuai kebutuhan Anda.</p>
+
 
 <h2>Menggunakan PHP Versi Lain</h2>
 <p>Jika Anda menggunakan versi PHP selain 8.1, seperti 8.3, pastikan semua ekstensi yang dibutuhkan terpasang dan kompatibel dengan proyek Anda. Sebagai contoh, untuk PHP 8.3, Anda mungkin perlu mengatasi beberapa masalah kompatibilitas dan ketergantungan paket:</p>
