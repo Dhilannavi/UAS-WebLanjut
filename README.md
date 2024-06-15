@@ -16,7 +16,7 @@
 
 <p>Dengan kombinasi ini, Portal Berita Laravel menawarkan antarmuka pengguna yang intuitif dan mudah digunakan baik untuk admin maupun pengunjung.</p>
 
-<h2>Dokumentasi Website</h2>
+<h2>Preview Website</h2>
 
 ![Screenshot (246)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/1a6aeb5d-0a10-4145-b654-efe7fc6b0ed7) 
 
