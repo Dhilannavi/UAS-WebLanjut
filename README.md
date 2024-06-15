@@ -1,4 +1,4 @@
-# Portal Berita Laravel |
+# Portal Berita Laravel 
 ## Mata Kuliah Pemrograman Web Lanjut
 
  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
