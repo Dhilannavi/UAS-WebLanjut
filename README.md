@@ -2,16 +2,16 @@
 laravel-berita menggunakan framework laravael v10 dengan integrasi template AdminLTE 3 dan Bootstrap 5. 
 
 <h2>Dokumentasi Website</h2>
-![Screenshot (246)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/1a6aeb5d-0a10-4145-b654-efe7fc6b0ed7)
-![Screenshot (256)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/2b10e2fa-4a30-4092-9788-d47e80742781)
-![Screenshot (247)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/14844715-609e-425b-9c24-252f5b7738ec)
-![Screenshot (248)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/bf716d75-90af-40b1-820c-b16e259d6e13)
-![Screenshot (249)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/d86c424e-54cd-48aa-9f87-cd69e6a34a62)
-![Screenshot (250)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/d17ec79d-210a-4a7d-99ed-88e1c2b7ffff)
-![Screenshot (251)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/df419adb-22fa-400c-8624-b0bafb3589ff)
-![Screenshot (252)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/856577a5-1fd0-4b57-8672-51b6983afc3d)
-![Screenshot (253)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/fc051ca1-afde-4a30-b8f2-8516a7d27333)
-![Screenshot (254)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/a2fb5297-cc32-4830-b973-866246e059ed)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/1a6aeb5d-0a10-4145-b654-efe7fc6b0ed7)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/2b10e2fa-4a30-4092-9788-d47e80742781)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/14844715-609e-425b-9c24-252f5b7738ec)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/bf716d75-90af-40b1-820c-b16e259d6e13)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/d86c424e-54cd-48aa-9f87-cd69e6a34a62)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/d17ec79d-210a-4a7d-99ed-88e1c2b7ffff)
+!Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/df419adb-22fa-400c-8624-b0bafb3589ff)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/856577a5-1fd0-4b57-8672-51b6983afc3d)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/fc051ca1-afde-4a30-b8f2-8516a7d27333)
+![Image](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/a2fb5297-cc32-4830-b973-866246e059ed)
 
 
 
