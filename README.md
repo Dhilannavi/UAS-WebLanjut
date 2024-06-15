@@ -1,4 +1,4 @@
-<h1>Pertal Berita Laravel</h1>
+<h1>Portal Berita Laravel</h1>
 <p>Website ini dibangun menggunakan Laravel versi 10 dengan integrasi template AdminLTE 3 untuk dashboard admin dan Bootstrap 5 untuk antarmuka pengguna.</p>
 
 <p><strong>Laravel 10:</strong> Framework PHP yang andal dan modern untuk membangun aplikasi web.</p>
