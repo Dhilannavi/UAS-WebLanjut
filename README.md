@@ -1,5 +1,12 @@
-<h1>Portal Berita Laravel</h1>
-<p>Website ini dibangun menggunakan Laravel versi 10 dengan integrasi template AdminLTE 3 untuk dashboard admin dan Bootstrap 5 untuk antarmuka pengguna.</p>
+# Portal Berita Laravel | Ujian Tengah Semester & Ujian Akhir Semester
+## Mata Kuliah Pemrograman Web Lanjut
+
+ [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+![Maintainer](https://img.shields.io/badge/Author-Mohamad_Dhil_Annafi_|_22091397056-blue) 
+
+> >Website ini dibangun menggunakan Laravel versi 10 dengan integrasi template AdminLTE 3 untuk dashboard admin dan Bootstrap 5 untuk antarmuka pengguna.
 
 <p><strong>Laravel 10:</strong> Framework PHP yang andal dan modern untuk membangun aplikasi web.</p>
 
@@ -33,7 +40,7 @@
 
 
 
-<h2>Fitur</h2>
+<h2>Fitur-fitur</h2>
 <ul>
     <li>Laravel Breeze (Blade)</li>
     <li>Spatie Permission v6 dengan dukungan multi role</li>
