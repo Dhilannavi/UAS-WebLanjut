@@ -42,11 +42,33 @@
 
 <h2>Fitur-fitur</h2>
 <ul>
-    <li>Laravel Breeze (Blade)</li>
+    <li>Laravel Breeze (Blade) untuk otentikasi</li>
     <li>Spatie Permission v6 dengan dukungan multi role</li>
     <li>Data wilayah Indonesia dari Laravolt mencakup: Provinsi, Kota, Kecamatan, Desa</li>
-    <li>Dashboard Admin: CRUD untuk Post, Kategori, Tag, Pengguna, Navigasi, Permission, Role</li>
-    <li>Dashboard Penulis: CRUD untuk Post, Edit Profil</li>
+    <li>Dashboard Admin:
+        <ul>
+            <li>Tambah Post</li>
+            <li>Edit Post</li>
+            <li>Hapus Post</li>
+            <li>Tambah Kategori</li>
+            <li>Edit Kategori</li>
+            <li>Hapus Kategori</li>
+            <li>Tambah Tag</li>
+            <li>Edit Tag</li>
+            <li>Hapus Tag</li>
+            <li>Manajemen Pengguna</li>
+            <li>Manajemen Navigasi</li>
+            <li>Manajemen Permission</li>
+            <li>Manajemen Role</li>
+        </ul>
+    </li>
+    <li>Dashboard Penulis:
+        <ul>
+            <li>Tambah Post</li>
+            <li>Edit Post</li>
+            <li>Edit Profil</li>
+        </ul>
+    </li>
 </ul>
 
 <h3>Layout</h3>
