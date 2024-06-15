@@ -1,12 +1,19 @@
 <h1>laravel-berita</h1>
 laravel-berita menggunakan framework laravael v10 dengan integrasi template AdminLTE 3 dan Bootstrap 5. 
 
-![Image](https://github.com/Dina067/UAS_WebLanjut/assets/124496007/3bda3d0b-4220-4b8a-8265-210b685a6611)
-![Image](https://github.com/Dina067/UAS_WebLanjut/assets/124496007/a34a22e0-d4c8-4b26-bc13-92f9022b9fe0)
-![Image](https://github.com/Dina067/UAS_WebLanjut/assets/124496007/b81e959e-359b-4594-b0da-7695f7cfedda)
-![Image](https://github.com/Dina067/UAS_WebLanjut/assets/124496007/ae8f8903-31ad-4714-9b71-4c7b45fee3c3)
-![Image](https://github.com/Dina067/UAS_WebLanjut/assets/124496007/f5e8ed7e-2c82-47b8-9438-e8a3df3ecb64)
-![Image](https://github.com/Dina067/UAS_WebLanjut/assets/124496007/acdc3894-f88d-4b3e-868b-e344c9de7a50)
+<h2>Dokumentasi Website</h2>
+![Screenshot (246)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/1a6aeb5d-0a10-4145-b654-efe7fc6b0ed7)
+![Screenshot (256)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/2b10e2fa-4a30-4092-9788-d47e80742781)
+![Screenshot (247)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/14844715-609e-425b-9c24-252f5b7738ec)
+![Screenshot (248)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/bf716d75-90af-40b1-820c-b16e259d6e13)
+![Screenshot (249)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/d86c424e-54cd-48aa-9f87-cd69e6a34a62)
+![Screenshot (250)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/d17ec79d-210a-4a7d-99ed-88e1c2b7ffff)
+![Screenshot (251)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/df419adb-22fa-400c-8624-b0bafb3589ff)
+![Screenshot (252)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/856577a5-1fd0-4b57-8672-51b6983afc3d)
+![Screenshot (253)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/fc051ca1-afde-4a30-b8f2-8516a7d27333)
+![Screenshot (254)](https://github.com/Dhilannavi/UAS-WebLanjut/assets/124485266/a2fb5297-cc32-4830-b973-866246e059ed)
+
+
 
 
 <h2>Fitur</h2>
@@ -30,7 +37,7 @@ Frontend: Bootstrap 5, Backend: AdminLTE 3
     <li>Fontawesome 6</li>
 </ul>
 
-Atau Anda dapat melihat semua paket yang saya gunakan dalam repo ini dari plugin di folder public > assets folder and composer.json file. Namun plugin dan paketnya belum semuanya terpakai, jadi Anda bisa melihat yang sebenarnya dari layouts > app.blade.php and script.blade.php.
+<p>Atau Anda dapat melihat semua paket yang saya gunakan dalam repo ini dari plugin di folder public &gt; assets folder and composer.json file. Namun plugin dan paketnya belum semuanya terpakai, jadi Anda bisa melihat yang sebenarnya dari layouts &gt; app.blade.php and script.blade.php.</p>
 
 <h2>Cara Instalasi</h2>
 <ul>
@@ -56,11 +63,67 @@ Atau Anda dapat melihat semua paket yang saya gunakan dalam repo ini dari plugin
     </li>
 </ul>
 
+<h2>Menggunakan PHP Versi Lain</h2>
+<p>Jika Anda menggunakan versi PHP selain 8.1, seperti 8.3, pastikan semua ekstensi yang dibutuhkan terpasang dan kompatibel dengan proyek Anda. Sebagai contoh, untuk PHP 8.3, Anda mungkin perlu mengatasi beberapa masalah kompatibilitas dan ketergantungan paket:</p>
+
+<ol>
+    <li><strong>Install atau Enable Ekstensi GD untuk PHP</strong>
+        <ul>
+            <li><strong>Windows:</strong>
+                <ol>
+                    <li>Buka file <code>php.ini</code> (misalnya di <code>C:\php-8.3.3\php.ini</code>).</li>
+                    <li>Cari baris <code>;extension=gd</code>.</li>
+                    <li>Hapus tanda titik koma (<code>;</code>) di awal baris tersebut untuk mengaktifkannya.</li>
+                    <li>Simpan file <code>php.ini</code>.</li>
+                    <li>Restart web server Anda.</li>
+                </ol>
+            </li>
+            <li><strong>Linux:</strong>
+                <ul>
+                    <li><strong>Ubuntu/Debian:</strong>
+                        <pre><code>sudo apt-get update
+sudo apt-get install php-gd
+sudo service apache2 restart</code></pre>
+                    </li>
+                    <li><strong>CentOS/RHEL:</strong>
+                        <pre><code>sudo yum install php-gd
+sudo systemctl restart httpd</code></pre>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><strong>Verifikasi Ekstensi GD</strong>
+        <p>Pastikan ekstensi GD aktif dengan menjalankan:</p>
+        <pre><code>php -m | grep gd</code></pre>
+        <p>Harus muncul output <code>gd</code> jika ekstensi sudah aktif.</p>
+    </li>
+    <li><strong>Perbarui <code>composer.json</code> Dependencies</strong>
+        <p>Sesuaikan <code>composer.json</code> untuk mendukung versi PHP Anda:</p>
+        <pre><code>{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "maatwebsite/excel": "^3.1"
+    }
+}</code></pre>
+    </li>
+    <li><strong>Update Composer</strong>
+        <p>Jalankan perintah berikut untuk memperbarui dependencies:</p>
+        <pre><code>composer update --with-all-dependencies</code></pre>
+        <p>Jika masih ada masalah dengan ekstensi GD, Anda bisa melewatinya sementara dengan:</p>
+        <pre><code>composer install --ignore-platform-req=ext-gd</code></pre>
+        <p>Namun, lebih baik jika Anda memastikan ekstensi GD terinstal dengan benar.</p>
+    </li>
+</ol>
+
+<h2>Mengatasi Masalah Dependency</h2>
+<p>Jika Anda menghadapi masalah ketergantungan, seperti versi PHP yang tidak kompatibel dengan paket tertentu, pastikan Anda menggunakan versi paket yang mendukung versi PHP Anda. Misalnya, <code>maatwebsite/excel</code> versi terbaru mungkin diperlukan untuk mendukung PHP 8.3.</p>
+<p>Dengan langkah-langkah ini, Anda seharusnya dapat menginstal dan menjalankan proyek Anda tanpa masalah.</p>
+
+
 <h2>Kredensial Login Pengguna</h2>
 <ul>
-    <li>Admin: email dan password; dinahariyanti48@gmail.com , bismillah1</li>
-    <li>Author: email dan password; alexandra22@gmail.com , alexa123</li>
+    <li>Admin: email dan password; dhilannafi@gmail.com , admin123</li>
+    <li>Author: email dan password; robertbaratheon@gmail.com , a1b2c3d4</li>
 </ul>
-
-Apakah anda memiliki saran lain untuk repo ini? Mari kembangkan repo ini menjadi lebih baik
 
